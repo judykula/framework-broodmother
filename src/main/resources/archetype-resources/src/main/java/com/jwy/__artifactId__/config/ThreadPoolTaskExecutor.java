@@ -39,9 +39,9 @@ import java.util.concurrent.ThreadPoolExecutor;
 //@Configuration(proxyBeanMethods = false)
 public class ThreadPoolConfiguration {
 
-    @Value("${sys.sample.threadpool.core.size:10}")
+    @Value("${symbol_dollar}{sys.sample.threadpool.core.size:10}")
     private int Sample_Core_Size;
-    @Value("${sys.sample.threadpool.max.size:20}")
+    @Value("${symbol_dollar}{sys.sample.threadpool.max.size:20}")
     private int Sample_Max_Size;
 
     /**
